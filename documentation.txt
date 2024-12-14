@@ -1,0 +1,39 @@
+command line list detail:
+1. python -m venv (your venv folder name) to install a virtual simulator
+2. (your venv folder name)/Scripts/activate to access the virtual simulator
+3. pip install django to install django in your virtual
+4. django-admin startproject (your project name)
+5. cd (your project name) to access your project
+6. python manage.py runserver to run the project
+7. python manage.py startapp item to create item directory(folder) in puddle
+8. python manage.py makemigrations to make migration file
+9. python manage.py migrate to migrate the table
+10. python manage.py createsuperuser to create an admin account
+11. python -m pip install Pillow
+
+folder list detail: 
+1. env : to run a virtual environment
+2. puddle : the project folder 
+3. puddle/core/templates/core : a folder in which the view(frontend) are made 
+4. puddle/item : a folder to set up the admin page
+5. puddle/core : a folder to set up the user page
+6. puddle/conversation : a folder to set up the conversation between user and admin in inbox
+7. puddle/dashboard : a folder to set up the item that has been uploaded by the user/admin
+8. puddle/puddle : a folder to set up the project global settings and urls
+
+file list detail:
+1. puddle/templates/core/base.html : displaying base page
+2. puddle/templates/core/contact.html : displaying contact page
+3. puddle/templates/core/index.html : displaying index page
+4. puddle/core/views.py : to set the view page which connected with templates files
+5. puddle/puddle/urls.py : to configure routes
+6. puddle/manage.py : the index file which is used to run the backend project
+7. puddle/puddle/settings.py : configure the project like storage, etc
+8. puddle/models.py : to configure user's database table model
+9. puddle/item/models.py : configuring admin's database table model
+10. puddle/item/admin.py : to add function like register and so on
+
+#admin username & password
+
+username : admin
+password : django123
